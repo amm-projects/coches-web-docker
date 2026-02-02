@@ -1,0 +1,31 @@
+# Laravel
+/vendor
+.env
+.env.*
+!/env.example
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# Node / React / Vite
+/node_modules
+/npm-debug.log*
+/yarn-error.log*
+
+# Build
+/public/build
+/dist
+
+# Docker
+mysql_data
+*.pid
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# OS
+Thumbs.db

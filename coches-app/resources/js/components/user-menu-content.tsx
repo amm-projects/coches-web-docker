@@ -5,7 +5,7 @@ import { type User } from '@/types';
 import { Link, router } from '@inertiajs/react';
 import { CableCar, LogOut, Settings, } from 'lucide-react';
 import { useState } from 'react';
-import webIcon from '/public/storage/images/web_icon.svg';
+//import webIcon from '/public/storage/images/web_icon.svg';
 
 
 interface UserMenuContentProps {
@@ -32,7 +32,7 @@ export function UserMenuContent({ user }: UserMenuContentProps) {
                 <DropdownMenuItem asChild>
                     
                     <Link className="block w-full" href={route('main.users.show', user.id)} as="button" prefetch onClick={cleanup}>
-                        <img src={webIcon} className='mr-2 w-4' />
+                        <img src='/storage/images/web_icon.svg' className='mr-2 w-4' />
                         Ver Mi Perfil Y Coches
                     </Link>
                 </DropdownMenuItem>

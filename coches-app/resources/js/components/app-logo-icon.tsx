@@ -1,10 +1,12 @@
 import { SVGAttributes } from 'react';
-import webIcon from '/public/storage/images/web_icon.svg';
+//import webIcon from '/public/storage/images/web_icon.svg';
 
 export default function AppLogoIcon(props: SVGAttributes<SVGElement>) {
     return (
 
-        <img src={webIcon} alt="Coches Web" className='absolute inset-0 p-1'/>
+        //<img src={webIcon} alt="Coches Web" className='absolute inset-0 p-1'/>
+        <img src='/storage/images/web_icon.svg' alt="Coches Web" className='absolute inset-0 p-1'/>
+      
         /*
         <svg {...props} viewBox="0 20 130 130" xmlns="http://www.w3.org/2000/svg">
 

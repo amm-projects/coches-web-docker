@@ -1,0 +1,9 @@
+.git
+node_modules
+npm-debug.log
+vendor
+.env
+mysql_data
+.gitignore
+Dockerfile
+docker-compose.yml

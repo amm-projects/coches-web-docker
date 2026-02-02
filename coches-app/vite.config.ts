@@ -1,8 +1,8 @@
-import tailwindcss from '@tailwindcss/vite';
-import react from '@vitejs/plugin-react';
-import laravel from 'laravel-vite-plugin';
-import { resolve } from 'node:path';
-import { defineConfig } from 'vite';
+import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react'
+import laravel from 'laravel-vite-plugin'
+import { resolve } from 'node:path'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
     plugins: [
@@ -22,4 +22,14 @@ export default defineConfig({
             'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
         },
     },
-});
+
+    // 🔥 ESTO ES LO QUE FALTABA
+    server: {
+        host: '0.0.0.0',      // Docker
+        port: 5173,
+        strictPort: true,
+        hmr: {
+            host: 'localhost', // navegador (IPv4)
+        },
+    },
+})
