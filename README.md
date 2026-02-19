@@ -9,6 +9,8 @@ Coches-Web es una pagina web de una compraventa de coches hecha con Laravel, Rea
 
   - Bonita presentacion con efectos y animaciones.
 
+  - Al funcionar con Docker se puede ejecutar en varias plataformas (Windows, Linux, Mac).
+
 Mas informacion en la documentacion de pdf.
 
 # Como ejecutarla
