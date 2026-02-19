@@ -1,9 +1,6 @@
-.git
 node_modules
-npm-debug.log
 vendor
-.env
-mysql_data
+.git
 .gitignore
 Dockerfile
 docker-compose.yml

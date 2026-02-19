@@ -2,12 +2,14 @@ version: "3.9"
 
 services:
   app:
-    build: .
+    #build: .
+    image: ghcr.io/amm-projects/coches-web-docker-app:latest
     ports:
       - "8000:8000"
       - "5173:5173"
     volumes:
-      - ./coches-app:/app
+      - ./coches-web:/app
+      - /app/vendor
       - /app/node_modules
     environment:
       APP_ENV: local
@@ -36,17 +38,18 @@ services:
       interval: 5s
       retries: 10
 
-  phpmyadmin:
-    image: phpmyadmin:latest
-    ports:
-      - "8080:80"
-    environment:
-      PMA_HOST: mysql
-      PMA_USER: root
-      PMA_PASSWORD: root
-    depends_on:
-      mysql:
-        condition: service_healthy
+
+  #phpmyadmin:
+   # image: phpmyadmin:latest
+    #ports:
+     # - "8080:80"
+    #environment:
+     # PMA_HOST: mysql
+      #PMA_USER: root
+      #PMA_PASSWORD: root
+    #depends_on:
+     # mysql:
+      #  condition: service_healthy
 
 volumes:
   mysql_data:
