@@ -13,7 +13,7 @@ Mas informacion en la documentacion de pdf.
 
 # Como ejecutarla
 
-1. Descargar en instalar docker desktop https://www.docker.com/
+1. Descargar e instalar docker desktop https://www.docker.com/
 
 2. Con la terminal situarse dentro del repositorio y escribir "docker compose up"
 
