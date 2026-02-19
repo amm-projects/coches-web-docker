@@ -17,8 +17,10 @@ Mas informacion en la documentacion de pdf.
 
 1. Descargar e instalar docker desktop https://www.docker.com/
 
-2. Con la terminal situarse dentro del repositorio y escribir "docker compose up"
+2. Descargar el repositorio con git clone o en zip
 
-3. Escribir en el navegador la url http://localhost:8000
+3. Con la terminal situarse dentro del repositorio y escribir "docker compose up"
 
-4. Para pararla hacer ctrl-c en la terminal y escribir "docker compose down" para borrar los contenedores o "docker compose down -v --rmi all --remove-orphans" para borrar todo el proyecto.
+4. Escribir en el navegador la url http://localhost:8000
+
+5. Para pararla hacer ctrl-c en la terminal y escribir "docker compose down" para borrar los contenedores o "docker compose down -v --rmi all --remove-orphans" para borrar todo el proyecto.
