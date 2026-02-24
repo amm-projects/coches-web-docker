@@ -7,7 +7,7 @@ Coches-Web es una pagina web de una compraventa de coches hecha con Docker, Lara
 
   - Los usuarios pueden comprar y vender coches de forma facil, rapida y segura.
 
-  - Bonita presentacion con efectos y animaciones.
+  - Interfaz atractiva con efectos y animaciones.
 
   - Al funcionar con Docker se puede ejecutar rapidamente y en varias plataformas (Windows, Linux, Mac).
 
