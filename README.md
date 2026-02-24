@@ -1,5 +1,5 @@
 # Descripcion
-Coches-Web es una pagina web en estado de desarrollo de una compraventa de coches hecha con Docker, Laravel, React, Inertia y MySql.
+Coches-Web es una pagina web de una compraventa de coches hecha con Docker, Laravel, React, Inertia y MySql.
 
   - Gestion CRUD (creacion, lectura, actulizacion y eliminacion) de usuarios y vehiculos.
 
