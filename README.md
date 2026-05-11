@@ -19,7 +19,7 @@ Mas informacion en la documentacion de pdf.
 
 2. Descargar el repositorio con git clone o en zip
 
-3. Con la terminal situarse dentro del repositorio y escribir "docker compose up"
+3. Iniciar docker y en la terminal situarse dentro del repositorio y escribir "docker compose up"
 
 4. Escribir en el navegador la url http://localhost:8000
 
